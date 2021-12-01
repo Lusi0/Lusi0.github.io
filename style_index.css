@@ -4,6 +4,7 @@
     -webkit-background-clip: text;
     text-transform: uppercase;
     transition: all 0.2s;
+    text-align: center;
   }
 
   .wrapper {
