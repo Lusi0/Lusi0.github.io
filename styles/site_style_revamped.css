@@ -1,0 +1,39 @@
+.heading {
+    margin: 1em 0;
+  }
+  
+  .card {
+    margin-bottom: 1em;
+  }
+  .card .card-img-top {
+    max-height: 200px;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+  } 
+
+  .hvr-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    cursor: pointer;        
+    text-decoration: none;
+  }
+  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+
+.github {
+    color:#6e5494;
+}
+
+.try {
+    color: #ff0000;
+}
