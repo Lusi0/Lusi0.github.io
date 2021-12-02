@@ -53,8 +53,8 @@ h1{
     text-decoration: none;
   }
   .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
   }
 
 .github {
