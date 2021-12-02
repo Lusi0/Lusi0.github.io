@@ -12,6 +12,10 @@ body {
     color: #efefef;
 }
 
+ul{
+  padding: 0;
+}
+
 
 @keyframes myanimation {
   0% {background-color: rgb(233, 90, 90);}
@@ -115,11 +119,7 @@ body {
   }
 }
 
-.container {
-  margin: 0;
-  position: absolute;
-  left: 0%;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+ul {
+  display: table;
+  margin: 0 auto;
 }

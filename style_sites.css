@@ -9,35 +9,35 @@
 	text-decoration: none;
 	white-space: nowrap;
   }
-  a::before,
-  a::after {
+  .thing::before,
+  .thing::after {
 	content: '';
 	position: absolute;
 	bottom: -1px;
 	width: 0;
 	height: 1px;
   }
-  a::before {
+  .thing::before {
 	left: 0;
 	background: transparent;
 	transition: width 0s, height 0.22s, background 0.44s;
   }
-  a::after {
+  .thing::after {
 	right: 0;
 	background: rgba(0, 0, 0, 0.75);
 	transition: width 0.44s, height 0.22s;
   }
-  a:hover::before {
+  .thing:hover::before {
 	width: 100%;
 	background: rgba(0, 0, 0, 0.75);
 	transition: width 0.44s, height 0.22s;
   }
-  a:hover::after {
+  .thing:hover::after {
 	width: 100%;
 	background: transparent;
 	transition: background 0s, height 0.22s;
   }
-  a > i {
+  .thing > i {
 	position: absolute;
 	right: -32px;
 	bottom: 22px;
@@ -48,42 +48,42 @@
 	pointer-events: none;
 	transition: opacity 0.33s 0s;
   }
-  a > i hr {
+  .thing > i hr {
 	position: absolute;
 	margin: 0;
 	background: rgba(0, 0, 0, 0.75);
 	border: none;
 	transition: transform 0.075s 0.2s, width 0.1s 0.2s, height 0.1s 0.2s;
   }
-  a > i hr:nth-of-type(1) {
+  .thing > i hr:nth-of-type(1) {
 	bottom: 0;
 	transform: translate3d(-100%, 0, 0);
   }
-  a > i hr:nth-of-type(2) {
+  .thing > i hr:nth-of-type(2) {
 	right: 0;
 	transform: translate3d(0, 110%, 0);
   }
-  a > i hr:nth-of-type(3) {
+  .thing > i hr:nth-of-type(3) {
 	top: 0;
 	transform: translate3d(100%, 0, 0);
   }
-  a > i hr:nth-of-type(4) {
+  .thing > i hr:nth-of-type(4) {
 	left: 0;
 	transform: translate3d(0, -110%, 0);
   }
-  a > i hr:nth-of-type(1),
-  a > i hr:nth-of-type(3) {
+  .thing > i hr:nth-of-type(1),
+  .thing > i hr:nth-of-type(3) {
 	left: 0;
 	width: 100%;
 	height: 1px;
   }
-  a > i hr:nth-of-type(2),
-  a > i hr:nth-of-type(4) {
+  .thing > i hr:nth-of-type(2),
+  .thing > i hr:nth-of-type(4) {
 	bottom: 1px;
 	width: 1px;
 	height: calc(100% - 2px);
   }
-  a > i hr:nth-of-type(5) {
+  .thing > i hr:nth-of-type(5) {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -93,8 +93,8 @@
 	overflow: visible;
 	background: rgba(0, 0, 0, 0.75);
   }
-  a > i hr:nth-of-type(5)::before,
-  a > i hr:nth-of-type(5)::after {
+  .thing > i hr:nth-of-type(5)::before,
+  .thing > i hr:nth-of-type(5)::after {
 	content: '';
 	position: absolute;
 	top: 1px;
@@ -103,33 +103,33 @@
 	height: 5px;
 	background: rgba(0, 0, 0, 0.75);
   }
-  a > i hr:nth-of-type(5)::after {
+  .thing > i hr:nth-of-type(5)::after {
 	transform: rotateZ(45deg) translate3d(-25%, 1px, 0);
 	transform-origin: top right;
 	height: 10px;
   }
-  a:hover > i {
+  .thing:hover > i {
 	opacity: 1;
 	transition: opacity 0s;
   }
-  a:hover > i hr {
+  .thing:hover > i hr {
 	transform: translate3d(0, 0, 0);
   }
-  a:hover > i hr:nth-of-type(1) {
+  .thing:hover > i hr:nth-of-type(1) {
 	transition-delay: 0.3s;
   }
-  a:hover > i hr:nth-of-type(2) {
+  .thing:hover > i hr:nth-of-type(2) {
 	height: 6px;
 	transition: transform 0.075s 0.375s, height 0.44s 0.5s;
   }
-  a:hover > i hr:nth-of-type(3) {
+  .thing:hover > i hr:nth-of-type(3) {
 	width: 7px;
 	transition: transform 0.075s 0.45s, width 0.44s 0.5s;
   }
-  a:hover > i hr:nth-of-type(4) {
+  .thing:hover > i hr:nth-of-type(4) {
 	transition-delay: 0.525s;
   }
-  a:hover > i hr:nth-of-type(5) {
+  .thing:hover > i hr:nth-of-type(5) {
 	transition: transform 0.5s 0.5s;
   }
   @font-face {
