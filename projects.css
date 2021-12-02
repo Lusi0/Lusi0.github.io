@@ -39,7 +39,7 @@ h1{
 	font-size: 15px;
 }
 
-.buttonD {
+.hvr-rotate {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -52,7 +52,15 @@ h1{
     cursor: pointer;        
     text-decoration: none;
   }
-  .ButtonD:hover, .hvr-rotate:focus, .hvr-rotate:active {
+  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
   }
+
+.github {
+    color:#6e5494;
+}
+
+.try {
+    color: #ff0000;
+}
