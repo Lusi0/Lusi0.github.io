@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# don't include anything in file titled Not_For_Production
+* Not_For_Production
+
